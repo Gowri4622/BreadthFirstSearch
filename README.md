@@ -4,7 +4,7 @@
 To develop an algorithm to find the route from the source to the destination point using breadth-first search.
 
 ## THEORY
-Explain the problem statement
+BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
 
 ## DESIGN STEPS
 
@@ -14,7 +14,15 @@ Identify a location in the google map:
 ### STEP 2:
 Select a specific number of nodes with distance
 
-### STEP -> Write your own steps:
+### STEP 3:
+Import required packages.
+
+### STEP 4:
+Include each node and its distance separately in the dictionary data structure.
+
+### STEP 5:
+End of program.
+
 
 
 ## ROUTE MAP
@@ -209,6 +217,9 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ![Screenshot_625](https://user-images.githubusercontent.com/75235455/166152510-5a1954a6-e30b-46cc-b2b0-14a863ef0139.png)
 
 ## SOLUTION JUSTIFICATION:
+Found the minimum distance route from the source to the destination point using breadth-first search.
 
 ## RESULT:
+Thus the program developed for finding route with drawn map and finding its distance covered.
+
 
